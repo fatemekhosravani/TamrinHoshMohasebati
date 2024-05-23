@@ -51,3 +51,13 @@ num_iterations = int(input("Please enter the number of iterations: "))
 step_size = float(input("Please determine the step size: "))
 best_x, best_y, best_solution = grid_search(num_iterations, step_size, x_range, y_range)
 print("Best solution at (X =", best_x + x_range, " Y =", best_y + y_range, ") with value:", best_solution)
+# Ackyly
+# random number baraye x,y
+#acky(x,y)
+#best
+#tekrar 
+#x+step size random
+#y + step size
+#ackley(newx,y)
+#best <> bozorg tar ya kochek tar
+#best

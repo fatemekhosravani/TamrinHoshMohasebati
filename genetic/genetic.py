@@ -43,7 +43,7 @@ def roulette(population,fitList):
   select = random.choices(population,weights=chance,k=2)
   return select[0],select[1]
 
-
+#[1,5,8,9,7],[1,3,9,8,4]=[1,5,9,8,4],[1,3,8,9,7]
 def offspring(p1,p2):
   s = random.randint(0,len(p1)-1)
   sp1 = p1[:s] + p2[s:]
@@ -90,3 +90,20 @@ plt.xlabel('X')
 plt.ylabel('Y')
 plt.grid(True)
 plt.show()
+
+#bruma 14 import
+#first pop shuffle
+#fasle haro hesab karde va baham jam mikonim ta fitness bedast beyayd
+#sort kardan fitness ba zip
+#rouutle wheel
+#
+
+
+
+
+
+
+
+
+
+
